@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    height: 70ch;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    background-color: rgb(71, 12, 12);
+    height: max-content;
+    padding: 15px;
+    width: 100%;
+    border-radius: 20px;
+    justify-content: center;    
+    
+}
+a{
+    border-radius: 5px;
+    font-weight: 800;
+    padding: 5px;
+    height: fit-content;
+    font-size: x-large;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(151, 177, 168);
+    margin-right: 50px;   
+}

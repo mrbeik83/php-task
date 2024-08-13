@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    background-color: beige;
+}
+.container{
+    width: 50%;
+    margin: 20% auto;
+    padding: 2%;
+    background-size: cover;
+    display: flex;
+}
+.form{
+    display: flex;
+    background-color: rgb(127, 182, 230);
+    border: 5px solid rgb(29, 89, 167);
+    border-radius: 20%;
+    padding: 50px 100px;
+}
+.username{
+    padding: 15px;
+    background-color: rgb(127, 182, 230);
+}
+.username input{
+    height: 4vh;
+}
+.username p{
+    font-size: x-large;
+    font-weight: bold;
+    background-color: rgb(127, 182, 230);
+
+}
+.username button{
+    margin: 20px auto;
+    width: 100%;
+    height: 6vh;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(229, 174, 137);
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(87, 3, 3);
+}
+.username button:hover{
+    background-color: rgb(116, 93, 64);
+    color: aliceblue;
+}
