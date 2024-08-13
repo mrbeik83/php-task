@@ -1,0 +1,17 @@
+{
+    "name": "mrbeik/project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mrbeik\\Project\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mrbeik",
+            "email": "rezabeikyazdi@gmail.com"
+        }
+    ],
+    "require": {}
+}
