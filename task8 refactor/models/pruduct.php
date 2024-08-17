@@ -27,6 +27,7 @@
             $conn = $this->getConn();
             $qu = $conn->query("SELECT * FROM product1");
             return $qu;
-    }
+        }
+        
 }
 ?>
