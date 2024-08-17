@@ -1,9 +1,6 @@
 <?php
     $request = $_SERVER['REQUEST_URI'];
-    // $request = "/practice/farawinTabestoon/php_tasks_fw/task11_router_php/contact";
-    
-    
-    $url = "/php/task11Router";
+    $url = "/php-task/task11Router";
     
     switch ($request) {
     

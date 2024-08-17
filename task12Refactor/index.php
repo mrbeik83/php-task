@@ -1,6 +1,6 @@
 <?php
     $request = $_SERVER['REQUEST_URI'];
-    $url = "/php/task12Refactor";
+    $url = "/php-task/task12Refactor";
     
     switch ($request) {
     
