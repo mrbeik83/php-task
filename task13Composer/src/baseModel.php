@@ -13,7 +13,7 @@
             $this->dbname = $dbname;
             $this->username = $username;
             $this->password = $password;
-            // $this->conn = new PDO("mysql:host=$this->servername;dbname=$this->dbname", $this->username,$this->password);
+            $this->conn = new \PDO("mysql:host=$this->servername;dbname=$this->dbname", $this->username,$this->password);
         }
         
 

@@ -1,15 +1,12 @@
 <?php
     namespace Mrbeik\Project;
-    class users{        
+    class users extends baseModel{        
         public $name;
         public $family;
 
-        public function __construct($name,$family){
-            $this->name = $name;
-            $this->family = $family;
-        }
         public function showInfo(){
-            echo $this->name;
+            $qu = $this->conn->query("SELECT * FROM users");
+            return $qu;
         }
 
     }
