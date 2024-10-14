@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('payment', function (Blueprint $table) {
             $table->id();
-            $table->timestamp('startedAt');
-            $table->timestamp('finishedAt');
+            $table->timestamp('startedAt')->nullable();
+            $table->timestamp('finishedAt')->nullable();
             $table->string('userName');
             $table->string("userNameId");
             $table->bigInteger('total');

@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('factor', function (Blueprint $table) {
             $table->id();
             $table->string('userName');
-            $table->timestamp('date_month_year');
-            $table->timestamp('paidAt');
+            $table->timestamp('date_month_year')->nullable();
+            $table->timestamp('paidAt')->nullable();
             $table->bigInteger('total');
             $table->string('description',250);
             $table->unsignedBigInteger('discount');

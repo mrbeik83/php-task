@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('color');
             $table->string('size');
             $table->char('picture');
-            $table->timestamps('postedAt');
+            $table->timestamp('postedAt')->nullable();
             $table->boolean('available');
         });
     }

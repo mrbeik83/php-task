@@ -17,8 +17,8 @@ return new class extends Migration
             $table->string('messege',);
             $table->string('userName',250);
             $table->integer('likeNumbers');
-            $table->timestamps('editedBy');
-            $table->timestamps('deletedBy');
+            $table->timestamp('editedBy')->nullable();
+            $table->timestamp('deletedBy')->nullable();
         });
     }
 
